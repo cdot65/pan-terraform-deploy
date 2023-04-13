@@ -1,10 +1,10 @@
-# 🌐 Deploy Palo Alto Networks VM-Series with Terraform 🌐
+# Deploy Palo Alto Networks VM-Series with Terraform
 
 This is a project that uses Terraform to manage the lifecycle of VM-Series firewalls in Azure using infrastructure-as-code practices. 
 
 ## Table of Contents
 
-- [🌐 Deploy Palo Alto Networks VM-Series with Terraform 🌐](#-deploy-palo-alto-networks-vm-series-with-terraform-)
+- [Deploy Palo Alto Networks VM-Series with Terraform](#deploy-palo-alto-networks-vm-series-with-terraform)
   - [Table of Contents](#table-of-contents)
   - [Project Overview](#project-overview)
   - [Terraform Overview](#terraform-overview)
