@@ -37,8 +37,8 @@ This project is effectively a clone of the [Terraform Modules for Palo Alto Netw
 To get started, clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/cdot65/pan-terraform-deploy.git
+cd pan-terraform-deploy
 ```
 
 ### Update tfvars File
@@ -47,13 +47,25 @@ Update the terraform.tfvars file with your specific project settings, such as pr
 
 ### Terraform Workspace Creation
 
+Move into the `firewalls/` directory:
+
+```bash
+cd firewalls/
+```
+
+Move into the directory containing the firewall you'd like to manage, in my case that's `hou-vfw-01/`:
+
+```bash
+cd hou-vfw-01/
+```
+
 Create a new Terraform workspace to manage the state of your infrastructure:
 
 ```bash
-terraform workspace new my-workspace
+terraform workspace new hou-vfw-01
 ```
 
-Replace `my-workspace` with a name for your workspace.
+Replace `hou-vfw-01` with a name for your workspace.
 
 ### Terraform Lifecycle Commands
 
